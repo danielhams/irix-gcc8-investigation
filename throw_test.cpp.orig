@@ -1,0 +1,49 @@
+#include <iostream>
+
+// This is for when the "simple" throw case is working
+// and we need to test deeper stack levels, customer
+// unwinder calls etc.
+/**/
+class destroyable_object {
+private:
+  int internal_int_;
+public:
+  destroyable_object(int a) : internal_int_(a) {
+    std::cout << "EXE destrobj create" << std::endl;
+  }
+  ~destroyable_object() {
+    std::cout << "EXE destrobj cleanup" << std::endl;
+  }
+};
+
+void somefunc( destroyable_object & deo ) {
+  std::cout << "EXE somefunc enter" << std::endl;
+  destroyable_object copy = deo;
+  std::cout << "EXE somefunc leave" << std::endl;
+}
+
+/**/
+
+class test_exception {
+private:
+  const char *str_;
+public:
+  test_exception(const char *str) : str_(str) {
+  }
+};
+
+int main(int argc, char** argv) {
+  std::cout << "EXE Starting main" << std::endl;
+  std::cout << "EXE Before try" << std::endl;
+  try {
+  /*    destroyable_object(2);*/
+    std::cout << "EXE Before throw" << std::endl;
+    throw test_exception("blah");
+    std::cout << "EXE After throw" << std::endl;
+  }
+  catch( const test_exception & te ) {
+    std::cout << "EXE In catch" << std::endl;
+  }
+  std::cout << "EXE Leaving main" << std::endl;
+  return 0;
+}
