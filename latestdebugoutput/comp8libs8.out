@@ -1,0 +1,74 @@
+unwind-dw2-fde.c     __register_frame_info begin=4048000 ob=4049b58
+unwind-dw2-fde.c     __register_frame_info_bases begin=4048000 ob=4049b58 tbase=0 dbase=0
+unwind-dw2-fde.c     __register_frame_info begin=60144090 ob=6017d488
+unwind-dw2-fde.c     __register_frame_info_bases begin=60144090 ob=6017d488 tbase=0 dbase=0
+unwind-dw2-fde.c     __register_frame_info begin=10011784 ob=10011c88
+unwind-dw2-fde.c     __register_frame_info_bases begin=10011784 ob=10011c88 tbase=0 dbase=0
+EXE Starting main
+EXE Before try
+EXE Before doe construct
+EXE destrobj create
+EXE Before somefunc call
+EXE somefunc enter
+EXE somefunc about to throw
+eh_throw.cc          __cxa_throw called
+unwind.inc           _Unwind_RaiseException called
+unwind.inc           _Unwind_RaiseException init context
+unwind-dw2.c         uw_frame_state_for called context=7ffd7970 fs=7ffd5d20
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=4033863 bases=7ffd7c70
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=40482e8
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException phase 1 begin
+unwind.inc           _Unwind_RaiseException search_iter=0
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=60052f43 bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=60144f50
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=0 updating context
+unwind.inc           _Unwind_RaiseException search_iter=1
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=60052f43 bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=60144f50
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=1 updating context
+unwind.inc           _Unwind_RaiseException search_iter=2
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=10000f17 bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=10011824
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=2 updating context
+unwind.inc           _Unwind_RaiseException search_iter=3
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+eh_throw.cc          __cxa_throw unwinding error fallthrough
+eh_catch.cc          __cxa_begin_catch called
+eh_catch.cc          __cxa_begin_catch completed
+eh_throw.cc          __cxa_rethrow called
+unwind.inc           _Unwind_RaiseException called
+unwind.inc           _Unwind_RaiseException init context
+unwind-dw2.c         uw_frame_state_for called context=7ffd7030 fs=7ffd53e0
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=4033863 bases=7ffd7330
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=40482e8
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException phase 1 begin
+unwind.inc           _Unwind_RaiseException search_iter=0
+unwind-dw2.c         uw_frame_state_for called context=7ffd6c48 fs=7ffd6030
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=4034613 bases=7ffd6f48
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=4048458
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=0 updating context
+unwind.inc           _Unwind_RaiseException search_iter=1
+unwind-dw2.c         uw_frame_state_for called context=7ffd6c48 fs=7ffd6030
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=4034613 bases=7ffd6f48
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=4048458
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=1 updating context
+unwind.inc           _Unwind_RaiseException search_iter=2
+unwind-dw2.c         uw_frame_state_for called context=7ffd6c48 fs=7ffd6030
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=60053087 bases=7ffd6f48
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=60144f8c
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=2 updating context
+unwind.inc           _Unwind_RaiseException search_iter=3
+unwind-dw2.c         uw_frame_state_for called context=7ffd6c48 fs=7ffd6030
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=616e004b bases=7ffd6f48
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=0

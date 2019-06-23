@@ -1,0 +1,70 @@
+unwind-dw2-fde.c     __register_frame_info begin=4048000 ob=4049b58
+unwind-dw2-fde.c     __register_frame_info_bases begin=4048000 ob=4049b58 tbase=0 dbase=0
+unwind-dw2-fde.c     __register_frame_info begin=60144090 ob=6017d488
+unwind-dw2-fde.c     __register_frame_info_bases begin=60144090 ob=6017d488 tbase=0 dbase=0
+unwind-dw2-fde.c     __register_frame_info begin=10012000 ob=10012a28
+unwind-dw2-fde.c     __register_frame_info_bases begin=10012000 ob=10012a28 tbase=0 dbase=0
+EXE Starting main
+EXE Before try
+EXE Before doe construct
+EXE destrobj create
+EXE Before somefunc call
+EXE somefunc enter
+EXE somefunc about to throw
+eh_throw.cc          __cxa_throw called
+unwind.inc           _Unwind_RaiseException called
+unwind.inc           _Unwind_RaiseException init context
+unwind-dw2.c         uw_frame_state_for called context=7ffd7970 fs=7ffd5d20
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=4033863 bases=7ffd7c70
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=40482e8
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException phase 1 begin
+unwind.inc           _Unwind_RaiseException search_iter=0
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=60052f43 bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=60144f50
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=0 updating context
+unwind.inc           _Unwind_RaiseException search_iter=1
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=60052f43 bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=60144f50
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=1 updating context
+unwind.inc           _Unwind_RaiseException search_iter=2
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=10000f3b bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=10012080
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException search_iter=2 updating context
+unwind.inc           _Unwind_RaiseException search_iter=3
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd6970
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=100010ab bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=100120a8
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException phase 1 break on handler found
+unwind.inc           _Unwind_RaiseException phase 1 complete
+unwind.inc           _Unwind_RaiseException identify context
+unwind.inc           _Unwind_RaiseException_Phase2 begin
+unwind.inc           _Unwind_RaiseException_Phase2 stack_modif_iter=0
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd5cd0
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=60052f43 bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=60144f50
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException_Phase2 stack_modif_iter=1
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd5cd0
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=60052f43 bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=60144f50
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException_Phase2 stack_modif_iter=2
+unwind-dw2.c         uw_frame_state_for called context=7ffd7588 fs=7ffd5cd0
+unwind-dw2-fde.c     _Unwind_Find_FDE called pc=10000f3b bases=7ffd7888
+unwind-dw2-fde.c     _Unwind_Find_FDE returning with f=10012080
+unwind-dw2.c         uw_frame_state_for completed
+unwind.inc           _Unwind_RaiseException_Phase2 smi=2 break on install context
+unwind.inc           _Unwind_RaiseException_Phase2 completed code=7
+unwind.inc           _Unwind_RaiseException install context
+unwind.inc           uw_install_context cur=7ffd7970 target=7ffd7588
+unwind.inc           uw_install_context offset=160
+unwind.inc           uw_install_context handler=10000f3c
+unwind.inc           uw_install_context calling __builtin_eh_return
